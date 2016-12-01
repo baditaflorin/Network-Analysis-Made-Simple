@@ -25,7 +25,7 @@ Network-Analysis-Made-Simple
 
 ## Run Jupyter
 
-jupyter notebook
+    jupyter notebook
 
 To convert the jupyter notebook to python code, i used this script from Stack Overflow
 
