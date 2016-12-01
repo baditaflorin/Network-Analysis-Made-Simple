@@ -5,23 +5,23 @@ Network-Analysis-Made-Simple
 
 # Getting Set Up
 #Need Python version 3
-For this tutorial, you will need the following packages:
-sudo pip -v install jupyter
-sudo apt-get -y install ipython ipython-notebook
+    For this tutorial, you will need the following packages:
+    sudo pip -v install jupyter
+    sudo apt-get -y install ipython ipython-notebook
 
-sudo apt-get install libfreetype6-dev
-sudo apt-get install python3-pip
-sudo pip3 install --upgrade setuptools
-sudo pip3 install --upgrade pip
+    sudo apt-get install libfreetype6-dev
+    sudo apt-get install python3-pip
+    sudo pip3 install --upgrade setuptools
+    sudo pip3 install --upgrade pip
 
-sudo pip3 -v install networkx
-sudo pip3 -v install pandas
-sudo pip3 -v install scipy
-sudo pip3 -v install hiveplot
-sudo pip3 -v install circos
-sudo pip3 -v install numpy
-sudo pip3 -v install matplotlib
-sudo pip3 -v install jupyter
+    sudo pip3 -v install networkx
+    sudo pip3 -v install pandas
+    sudo pip3 -v install scipy
+    sudo pip3 -v install hiveplot
+    sudo pip3 -v install circos
+    sudo pip3 -v install numpy
+    sudo pip3 -v install matplotlib
+    sudo pip3 -v install jupyter
 
 ## Run Jupyter
 
