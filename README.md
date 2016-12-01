@@ -27,7 +27,7 @@ Network-Analysis-Made-Simple
 
     jupyter notebook
 
-To convert the jupyter notebook to python code, i used this script from Stack Overflow
+To convert the jupyter notebook to HTML code, i used this script from Stack Overflow
 
     for i in *.ipynb **/*.ipynb; do 
         echo "$i"
@@ -35,6 +35,12 @@ To convert the jupyter notebook to python code, i used this script from Stack Ov
     done`
 Source http://stackoverflow.com/posts/40198778/revisions
 
+To convert this jupyter notebook to Python code, i modified the script to 
+
+    for i in *.ipynb **/*.ipynb; do 
+        echo "$i"
+        jupyter nbconvert --to python "$i" "$i"
+    done`
 ## Clone the repository
 
 1. `$ cd /path/to/your/directory`
