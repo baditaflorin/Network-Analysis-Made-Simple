@@ -41,6 +41,12 @@ To convert this jupyter notebook to Python code, i modified the script to
         echo "$i"
         jupyter nbconvert --to python "$i" "$i"
     done`
+    
+Install Pycharm Editor
+https://confluence.jetbrains.com/display/PYH/Installing+PyCharm+on+Linux+according+to+FHS
+
+sudo ln -s /opt/pycharm-community-2016.3/bin/pycharm.sh /usr/bin/pycharm
+
 ## Clone the repository
 
 1. `$ cd /path/to/your/directory`
