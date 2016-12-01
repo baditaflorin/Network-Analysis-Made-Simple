@@ -4,17 +4,36 @@ Network-Analysis-Made-Simple
 ![](images/custom-logo.png)
 
 # Getting Set Up
-
+#Need Python version 3
 For this tutorial, you will need the following packages:
+sudo pip -v install jupyter
+sudo apt-get -y install ipython ipython-notebook
 
-1. Python 3
-2. `matplotlib`
-3. `networkx`
-4. `pandas`
-5. `hiveplot` - `conda install -c ericmjl hiveplot` or `pip install hiveplot`.
-6. `circos` - `conda install -c ericmjl circos` or `pip install circos`
-6. `numpy`
-7. `scipy`
+sudo apt-get install libfreetype6-dev
+sudo apt-get install python3-pip
+sudo pip3 install --upgrade setuptools
+sudo pip3 install --upgrade pip
+
+sudo pip3 -v install networkx
+sudo pip3 -v install pandas
+sudo pip3 -v install scipy
+sudo pip3 -v install hiveplot
+sudo pip3 -v install circos
+sudo pip3 -v install numpy
+sudo pip3 -v install matplotlib
+sudo pip3 -v install jupyter
+
+## Run Jupyter
+
+jupyter notebook
+
+To convert the jupyter notebook to python code, i used this script from Stack Overflow
+`
+for i in *.ipynb **/*.ipynb; do 
+    echo "$i"
+    jupyter nbconvert  "$i" "$i"
+done`
+Source http://stackoverflow.com/posts/40198778/revisions
 
 ## Clone the repository
 
